@@ -13,6 +13,11 @@ public class Quote {
 
     }
 
+    public Quote(String author, String text) {
+        this.author = author;
+        this.text = text;
+    }
+
     public String[] getTags() {
         return tags;
     }
